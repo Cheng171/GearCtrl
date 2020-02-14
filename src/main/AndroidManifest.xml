@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.easydroid.romctrl" >
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+	<uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_dualgear"
+        android:label="附加设置"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:allowBackup="true"
+            android:label="附加设置" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>          
+		<activity
+			android:name=".WifiView"
+			android:label="WLAN密码查看"/>
+		<activity
+			android:name=".BatDigital"
+			android:label="电池电量内外显"/>
+		<activity
+			android:name=".StatusBarStyle"
+			android:label="状态栏风格"/>
+		<activity
+			android:name=".wake"
+			android:label="双击唤醒"/>
+		<activity
+			android:name=".battery"
+			android:label="电量修改"/>
+		<activity
+			android:name=".CpuSet"
+			android:label="CPU设置"/>
+		<activity
+			android:name=".CpuSetV2"
+			android:label="CPU设置"/>
+		<activity
+			android:name=".zhagan"
+			android:label="榨干电池"/>
+	 <activity
+            android:name=".LCDFix"
+            android:label="调整分辨率"/>
+   <activity
+            android:name=".FilterListViewActivity"
+            android:label="程序冻结"/>
+		<activity
+			android:name=".Freeze"
+			android:label="应用冻结"/>
+		<activity
+			android:name=".Reboot"
+			android:label="高级重启"/>
+		<activity
+			android:name=".DevSet"
+			android:label="开发者选项"/>
+		<activity
+			android:name=".BatFix"
+			android:label="电池校准"/>
+		<activity android:name=".ViewActivity"/>
+		<activity
+			android:name=".FileActivity"
+			android:label="备份管理"/>
+    </application>
+</manifest>

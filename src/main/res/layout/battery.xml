@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:gravity="center"
+			android:padding="25dp">
+
+			<ImageView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:src="@drawable/logo_miui_lab"
+				android:layout_marginTop="30dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:text="修改手机剩余电量以达到伪装效果"
+				android:layout_marginTop="15dp"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:layout_marginTop="45dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="选择数值："
+					android:textColor="#656565"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:layout_marginTop="5dp">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="5%"
+														android:id="@+id/xingnengmakeswap128"
+						android:layout_marginRight="5dp"
+						android:layout_weight="1.0"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="30%"
+								android:id="@+id/xingnengmakeswap256"
+						android:layout_marginLeft="5dp"
+						android:layout_weight="1.0"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="70%"
+								android:id="@+id/xingnengswap"
+
+						android:layout_weight="1.0"
+						android:layout_marginRight="5dp"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="100%"
+						android:layout_weight="1.0"
+								android:id="@+id/xingnengunswap"
+
+						android:layout_marginLeft="5dp"/>
+
+				</LinearLayout>
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="恢复原始电量"
+								android:id="@+id/rec"
+
+						android:layout_weight="1.0"
+						android:layout_marginRight="5dp"/>
+
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:id="@+id/LinearFrame"
+	android:background="@drawable/customview_list_touch">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:padding="10dp"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:gravity="center">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/customview_checkboxlistitemTextView"
+				android:text="Text"
+				android:textSize="15dp"
+				android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/customview_checkboxlistitemTextViewSmall"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:visibility="gone"
+				android:textColor="#656565"
+				android:text="Small Text"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="right">
+
+			<CheckBox
+				android:id="@+id/customview_checkboxlistitemCheckBox"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="1px"
+		android:id="@+id/customview_checkboxlistitemLinearLayoutBottomHr"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#EEEEEE"/>
+
+</LinearLayout>
+

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fitsSystemWindows="true"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:id="@+id/ll"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginTop="0dp"
+		android:layout_marginBottom="0dp"
+		android:orientation="vertical">
+
+		<Button
+			android:id="@+id/rootbtn"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="0dp"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="0dp"
+			android:gravity="center_horizontal"/>
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_below="@id/ll"
+		android:layout_above="@+id/tw"
+		android:orientation="vertical"
+		android:elevation="4dp"
+		android:padding="10dp">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="分辨率"
+				android:layout_marginBottom="10dp"
+				android:layout_marginTop="10dp"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:layout_height="36dp"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="left|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="默认："/>
+
+					<TextView
+						android:id="@+id/DefSize"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="36dp"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="left|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="当前："/>
+
+					<TextView
+						android:id="@+id/NowSize"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"/>
+
+					<ImageButton
+						android:id="@+id/btnr"
+						style="?android:attr/buttonBarButtonStyle"
+						android:layout_height="36dp"
+						android:layout_width="36dp"
+						android:src="@drawable/ic_setting_reset_recovery"
+						android:layout_marginLeft="10dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="48dp"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="left|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="修改："/>
+
+					<EditText
+						android:id="@+id/etSizew"
+						android:layout_height="wrap_content"
+						android:inputType="number"
+						android:layout_width="96dp"
+						android:ems="5"
+						android:hint="宽"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="x"/>
+
+					<EditText
+						android:id="@+id/etSizeh"
+						android:layout_height="wrap_content"
+						android:inputType="number"
+						android:layout_width="96dp"
+						android:ems="5"
+						android:hint="高"/>
+
+					<ImageButton
+						android:id="@+id/btnSized"
+						style="?android:attr/buttonBarButtonStyle"
+						android:layout_height="36dp"
+						android:layout_width="36dp"
+						android:src="@drawable/ic_setting_language_input"
+						android:layout_marginLeft="10dp"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_height="1dp"
+				android:layout_width="match_parent"
+				android:layout_marginBottom="10dp"
+				android:layout_marginTop="10dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="密度"
+				android:layout_marginBottom="10dp"
+				android:layout_marginTop="10dp"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:layout_height="36dp"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="left|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="默认："/>
+
+					<TextView
+						android:id="@+id/DefDensity"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="36dp"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="left|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="当前："/>
+
+					<TextView
+						android:id="@+id/NowDensity"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"/>
+
+					<ImageButton
+						android:id="@+id/btndr"
+						style="?android:attr/buttonBarButtonStyle"
+						android:layout_height="36dp"
+						android:layout_width="36dp"
+						android:src="@drawable/ic_setting_reset_recovery"
+						android:layout_marginLeft="10dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="48dp"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="left|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="修改："/>
+
+					<EditText
+						android:id="@+id/etd"
+						android:layout_height="wrap_content"
+						android:inputType="number"
+						android:layout_width="96dp"
+						android:ems="5"
+						android:hint="DPI"/>
+
+					<ImageButton
+						android:id="@+id/btndd"
+						style="?android:attr/buttonBarButtonStyle"
+						android:layout_height="36dp"
+						android:layout_width="36dp"
+						android:src="@drawable/ic_setting_language_input"
+						android:layout_marginLeft="10dp"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_height="1dp"
+				android:layout_width="match_parent"
+				android:layout_marginTop="10dp"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:id="@+id/btnreboot"
+				android:layout_height="48dp"
+				android:layout_width="match_parent"
+				android:text="软重启"/>
+
+			<Button
+				android:id="@+id/btnre"
+				android:layout_height="48dp"
+				android:layout_width="match_parent"
+				android:text="全部恢复默认"
+				android:textColor="#F44336"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<TextView
+		android:id="@+id/tw"
+		android:layout_height="0dp"
+		android:layout_width="0dp"
+		android:text="Powered by GJG"
+		android:gravity="center"
+		android:layout_alignParentBottom="true"
+		android:layout_marginTop="4dp"
+		android:layout_marginBottom="4dp"/>
+
+</RelativeLayout>
+

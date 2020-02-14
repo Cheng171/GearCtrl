@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+	
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:src="@drawable/bar_classic"/>
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:layout_height="wrap_content">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="#656565"
+			android:text="经典通知预览"/>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right">
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/big"
+			android:paddingLeft="15dp"
+			android:paddingRight="15dp"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="选择此项"/>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="20dp" />
+	
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:src="@drawable/bar_aosp"/>
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:layout_height="wrap_content">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="#656565"
+			android:text="原生通知预览"/>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right">
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/small"
+				android:paddingLeft="15dp"
+				android:paddingRight="15dp"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:text="选择此项"/>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<Button
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:id="@+id/nodig"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="去掉电池内数显"/>
+</LinearLayout>
+

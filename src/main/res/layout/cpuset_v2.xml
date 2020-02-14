@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:layout_height="match_parent">
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/displayCPUTemp"
+				android:layout_height="wrap_content" />
+
+			<View
+				android:layout_height="15dp"
+				android:layout_width="match_parent" />
+
+			<com.easydroid.romctrl.widget.listHeaderText
+				android:layout_width="match_parent"
+				android:id="@+id/kernelSet"
+				android:layout_height="wrap_content" />
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/kl0set"
+				android:layout_height="wrap_content" />
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/kl1set"
+				android:layout_height="wrap_content" />
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/kl2set"
+				android:layout_height="wrap_content" />
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/kl3set"
+				android:layout_height="wrap_content" />
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/kl4set"
+				android:layout_height="wrap_content" />
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/kl5set"
+				android:layout_height="wrap_content" />
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/kl6set"
+				android:layout_height="wrap_content" />
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/kl7set"
+				android:layout_height="wrap_content" />
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="15dp"/>
+
+			<com.easydroid.romctrl.widget.listHeaderText
+				android:layout_width="match_parent"
+				android:id="@+id/cpuSetH"
+				android:layout_height="wrap_content" />
+
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/cpuMode"
+				android:layout_height="wrap_content" />
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/cpuMax"
+				android:layout_height="wrap_content" />
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="match_parent"
+				android:id="@+id/cpuMin"
+				android:layout_height="wrap_content" />
+			<com.easydroid.romctrl.widget.listCheckBoxItem
+				android:layout_width="0dp"
+				android:id="@+id/mengxinTest"
+				android:layout_height="0dp" />
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="25dp"/>
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="Tips: \n 1-切换后将会重启状态栏 \n 2-如果遇到数显和数字重复的问题，到设置-状态栏-电池显示方式 里面设置"
+		android:padding="25dp"
+		android:textColor="#656565"/>
+
+	<!--<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>-->
+		
+		
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="25dp"
+		android:orientation="horizontal">
+			
+		<LinearLayout
+			android:layout_weight="1.0"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="5dp"
+			android:orientation="vertical">
+				
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:text="预览样式" />
+			
+
+			<ImageView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/bigimg"
+				android:src="@drawable/dig_bigbat"/>
+			
+			
+			<ImageView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/smallimg"
+				android:src="@drawable/dig_smallbat"/>
+			
+
+			<ImageView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:src="@drawable/dig_nodigbat"
+				android:id="@+id/nodigimg" />
+			
+			
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_weight="1.0"
+			android:layout_marginLeft="5dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+				
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="点击设置"
+				android:layout_marginBottom="10dp"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+			
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/big"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="电池内显(大电池)"/>
+			
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/small"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="电池内显(小电池)"/>
+			
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/nodig"
+				android:layout_weight="1.0"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="电量外显"/>
+			
+			
+			
+		</LinearLayout>
+		
+	</LinearLayout>
+
+	<!--<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>-->
+
+</LinearLayout>
+

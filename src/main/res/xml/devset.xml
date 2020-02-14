@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="开发者选项">    
+    <Preference
+        android:title="权限管理"
+        android:icon="@drawable/ic_setting_one_handed_mode"
+        >
+        <intent
+            android:targetPackage="com.android.settings"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.settings.Settings$OverlaySettingsActivity"/>
+    </Preference>
+     <Preference
+        android:title="通知日志
+        "
+        android:icon="@drawable/ic_setting_printer"
+        >
+        <intent
+            android:targetPackage="com.android.settings"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.settings.Settings$NotificationStationActivity"/>
+    </Preference>
+    <Preference
+        android:title="息屏时间"
+        android:icon="@drawable/ic_setting_edge_mode"
+        >
+        <intent
+            android:targetPackage="com.android.settings"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.settings.display.ScreenTimeoutDialogActivity"/>
+    </Preference>   
+
+</PreferenceScreen>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:padding="25dp"
+			android:gravity="center">
+
+			<ImageView
+				android:layout_height="50dp"
+				android:layout_width="50dp"
+				android:layout_marginTop="50dp"
+				android:src="@drawable/extreme_power_save_notify_icon"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:text="此功能可阻止系统低电量自动关机"
+				android:layout_marginTop="20dp"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:layout_marginTop="30dp">
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="榨干电池"
+								android:id="@+id/xingnengmakeswap128"
+
+						android:layout_weight="1.0"
+						android:layout_marginRight="5dp"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="恢复电量"
+								android:id="@+id/xingnengmakeswap256"
+
+						android:layout_weight="1.0"
+						android:layout_marginLeft="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="#656565"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:text="详细解释：\n\n· 榨干电池：电量锁定 1%\n· 恢复电量：恢复电池真实电量（插上充电器以后使用）"
+				android:layout_marginTop="25dp"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+	<Button
+		android:text="关闭唤醒(临时)"
+		android:id="@+id/xingnengswap"
+		android:layout_width="0dp"
+		android:layout_height="0dp"/>
+
+	<Button
+		android:text="关闭SWAP功能"
+		android:id="@+id/xingnengunswap"
+		android:layout_width="0dp"
+		android:layout_height="0dp"/>
+
+</LinearLayout>
+

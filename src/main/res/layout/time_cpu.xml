@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#aacccccc"
+	android:padding="1dp"
+	android:layout_marginLeft="15dp"
+	android:layout_marginRight="15dp"
+	android:layout_marginBottom="15dp"
+	android:layout_marginTop="30dp"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="#ddffffff">
+
+		<TextView
+			android:textColor="#000000"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="CPU全部参数"
+			android:layout_margin="15dp"
+			android:fontFamily="miui"
+			android:textStyle="bold"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+		
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="#cccccc"/>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:textColor="#656565"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:id="@+id/timecpuTextView"
+				android:padding="10dp"
+				android:singleLine="true"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+			
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="#cccccc"/>
+			
+			<TextView
+				android:textColor="#656565"
+				android:layout_weight="1"
+				android:padding="10dp"
+				android:singleLine="true"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:id="@+id/timecpuTextView1"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+		</LinearLayout>
+		
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="#cccccc"/>
+		
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:textColor="#656565"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:padding="10dp"
+				android:singleLine="true"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:id="@+id/timecpuTextView2"/>
+			
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="#cccccc"/>
+
+			<TextView
+				android:textColor="#656565"
+				android:layout_weight="1"
+				android:padding="10dp"
+				android:singleLine="true"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:id="@+id/timecpuTextView3"/>
+
+		</LinearLayout>
+		
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="#cccccc"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:textColor="#656565"
+				android:layout_weight="1"
+				android:padding="10dp"
+				android:singleLine="true"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:id="@+id/timecpuTextView4"/>
+			
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="#cccccc"/>
+			
+
+			<TextView
+				android:textColor="#656565"
+				android:layout_weight="1"
+				android:padding="10dp"
+				android:singleLine="true"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:id="@+id/timecpuTextView5"/>
+
+		</LinearLayout>
+		
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="#cccccc"/>
+		
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:textColor="#656565"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:id="@+id/timecpuTextView6"
+				android:padding="10dp"
+				android:singleLine="true"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+			
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="#cccccc"/>
+
+			<TextView
+				android:textColor="#656565"
+				android:layout_weight="1"
+				android:padding="10dp"
+				android:singleLine="true"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:id="@+id/timecpuTextView7"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+		</LinearLayout>
+		
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="#cccccc"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:textColor="#656565"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:id="@+id/timecpuTextView8"
+				android:padding="10dp"
+				android:singleLine="false"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+			
+
+			<View
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="#cccccc"/>
+			
+
+			<TextView
+				android:textColor="#656565"
+				android:layout_weight="1"
+				android:padding="10dp"
+				android:singleLine="false"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:id="@+id/timecpuTextView9"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+		</LinearLayout>
+		
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="#cccccc"/>
+
+		<TextView
+			android:textColor="#656565"
+			android:padding="10dp"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/timecpuTextView10"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
